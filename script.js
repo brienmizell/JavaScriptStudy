@@ -307,7 +307,6 @@ console.log(john.indexOf(1990));
 
 var isDesigner = john.indexOf('designer') === -1 ? 'John is NOT a designer' : 'John is a designer.';
 console.log(isDesigner);
-*/
 
 function tipCalculator(bill) {
     var percentage;
@@ -328,3 +327,30 @@ var tips = [tipCalculator(bills[0]), tipCalculator(bills[1]), tipCalculator(bill
 var finalsValues = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 console.log(tips, finalsValues);
+
+
+var John = {
+    firstName: 'John',
+    lastName: 'Smith',
+    birthYear: 1990,
+    family: ['Jane', 'Mark', 'Bob', 'Emily'],
+    job: 'teacher',
+    isMarried: false
+};
+
+console.log(John.firstName);
+console.log(John['lastName']);
+var x = 'birthYear';
+console.log(John[x]);
+
+John.job = 'designer'
+John['isMarried'] = true;
+
+console.log(John);
+
+var jane = new Object();
+jane.firstName = 'Jane';
+jane.birthYear = 1969;
+jane['lastName'] = 'Smith';
+console.log(jane);
+*/
