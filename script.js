@@ -353,7 +353,7 @@ jane.firstName = 'Jane';
 jane.birthYear = 1969;
 jane['lastName'] = 'Smith';
 console.log(jane);
-*/
+
 
 var john = {
     firstName: 'John',
@@ -369,3 +369,5 @@ var john = {
 
 john.calcAge();
 console.log(john);
+*/
+
